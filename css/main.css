@@ -1,0 +1,32 @@
+/***********************************
+GENERAL
+***********************************/
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  font-size: 1em;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
