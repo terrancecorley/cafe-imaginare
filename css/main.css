@@ -60,7 +60,7 @@ SITE HEADER
 }
 
 .logo {
-  font-size: 1.9em;
+  font-size: 1.8em;
   margin: 0 0 25px;
 }
 
@@ -118,17 +118,19 @@ SITE FOOTER
 .main-footer {
   text-align: center;
   margin-top: 150px;
-  padding: 80px 0 20px;
+  padding: 80px 1em 20px;
+  font-size: 1rem;
 }
 
 .social-icon {
   width: 28px;
   height: 28px;
-  margin: 0 13px 8px;
+  margin: 0 13px 10px;
 }
 
 .main-footer p {
   margin: 0;
+  font-size: 0.825em;
 }
 
 
@@ -138,14 +140,14 @@ COLORS
 
 /* General Colors */
 body {
-  color: #7dd567;
+  color: #777;
 }
 
 a:link, a:visited {
   color: #d49d6e;
 }
 
-a:hover, a:active {
+a:hover {
   color: #5b3615;
 }
 
