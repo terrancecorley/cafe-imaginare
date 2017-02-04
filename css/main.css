@@ -3,8 +3,8 @@ GENERAL
 ***********************************/
 
 *,
-*::before,
-*::after {
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -26,10 +26,18 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 ul,
 ol,
 li {
   list-style: none;
+}
+
+.container {
+  padding: 0 1em 0;
 }
 
 
@@ -42,11 +50,11 @@ SITE HEADER
   letter-spacing: 1px;
   text-align: center;
   font-size: 1.2rem;
-  padding: 30px 0 40px;
+  padding: 45px 0 40px;
 }
 
 .logo {
-  font-size: 1.825em;
+  font-size: 2em;
   margin: 0 0 10px;
 }
 
@@ -57,6 +65,7 @@ SITE HEADER
 .main-nav a {
   display: inline-block;
   padding: 12px 15px 2px;
+  transition: color 0.2s ease-in-out ;
 }
 
 .main-nav {
@@ -65,7 +74,7 @@ SITE HEADER
 }
 
 .main-nav li {
-  font-size: 1.2em;
+  font-size: 1.4em;
   margin-bottom: 15px;
   display: block;
 }
@@ -73,20 +82,31 @@ SITE HEADER
 
 
 /***********************************
-SITE BANNER
+PAGE: HOME
 ***********************************/
 
-.main-banner {
-  background-image: url('../img/site-banner.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 125px;
-  position: relative;
+.col {
+  padding-top: 2.5em;
 }
 
-.tagline {
-  font-family: 'Slabo 27px', 'Open Sans', sans-serif;
+.col p {
+  margin-top: 4px;
+}
+
+
+
+/***********************************
+SITE FOOTER
+***********************************/
+
+.main-footer {
+  text-align: center;
+  margin-top: 150px;
+  padding: 50px 0 20px;
+}
+
+.main-footer p {
+  margin: 0;
 }
 
 
@@ -109,6 +129,10 @@ a:hover, a:active {
 
 /* Header Colors */
 
+.main-header {
+  background-color: #e6d0bc;
+}
+
 .logo a {
   color: #5b3615;
 }
@@ -117,8 +141,12 @@ a:hover, a:active {
   border-bottom: 1px solid #5b3615;
 }
 
-/* Banner Colors */
+/* Footer Colors */
 
-.tagline {
-  color: #d1d4ce;
+.main-footer {
+  background-color: #e6d0bc;
+}
+
+.main-footer p {
+  color: #d49d6e;
 }
