@@ -18,6 +18,7 @@ html {
 
 body {
   line-height: 1.5;
+  letter-spacing: 0.5px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -29,4 +30,95 @@ ul,
 ol,
 li {
   list-style: none;
+}
+
+
+
+/***********************************
+SITE HEADER
+***********************************/
+
+.main-header {
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 30px 0 40px;
+}
+
+.logo {
+  font-size: 1.825em;
+  margin: 0 0 10px;
+}
+
+.logo a {
+  padding: 12px 15px 2px;
+}
+
+.main-nav a {
+  display: inline-block;
+  padding: 12px 15px 2px;
+}
+
+.main-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  display: block;
+}
+
+
+
+/***********************************
+SITE BANNER
+***********************************/
+
+.main-banner {
+  background-image: url('../img/site-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 125px;
+  position: relative;
+}
+
+.tagline {
+  font-family: 'Slabo 27px', 'Open Sans', sans-serif;
+}
+
+
+/***********************************
+COLORS
+***********************************/
+
+/* General Colors */
+body {
+  color: #7dd567;
+}
+
+a:link, a:visited {
+  color: #d49d6e;
+}
+
+a:hover, a:active {
+  color: #5b3615;
+}
+
+/* Header Colors */
+
+.logo a {
+  color: #5b3615;
+}
+
+.main-nav a {
+  border-bottom: 1px solid #5b3615;
+}
+
+/* Banner Colors */
+
+.tagline {
+  color: #d1d4ce;
 }
