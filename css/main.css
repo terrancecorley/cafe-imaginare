@@ -112,6 +112,16 @@ PAGE: HOME
 
 
 /***********************************
+PAGE: ABOUT
+***********************************/
+
+.cafe-imaginare {
+  font-weight: bold;
+}
+
+
+
+/***********************************
 SITE FOOTER
 ***********************************/
 
@@ -143,11 +153,13 @@ body {
   color: #777;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   color: #d49d6e;
 }
 
-a:hover {
+a:hover,
+li a.selected {
   color: #5b3615;
 }
 
@@ -163,6 +175,12 @@ a:hover {
 
 .main-nav a {
   border-bottom: 1px solid #5b3615;
+}
+
+/* Page: About */
+
+a.cafe-imaginare {
+  color: #5b3615;
 }
 
 /* Footer Colors */
