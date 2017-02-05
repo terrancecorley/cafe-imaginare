@@ -45,6 +45,17 @@ li {
   border-radius: 7px;
 }
 
+.col {
+  padding: 2.2em 0;
+  font-size: 1.1rem;
+}
+
+.col p {
+  margin-top: 4px;
+  font-size: 1.05em;
+  line-height: 1.4;
+}
+
 
 
 /***********************************
@@ -95,28 +106,22 @@ SITE HEADER
 
 
 /***********************************
-PAGE: HOME
-***********************************/
-
-.col {
-  padding: 2.2em 0;
-  font-size: 1.1rem;
-}
-
-.col p {
-  margin-top: 4px;
-  font-size: 1.05em;
-  line-height: 1.4;
-}
-
-
-
-/***********************************
 PAGE: ABOUT
 ***********************************/
 
 .cafe-imaginare {
   font-weight: bold;
+}
+
+
+
+/***********************************
+PAGE: EVENTS
+***********************************/
+
+.date {
+  margin-bottom: 0.6em;
+  font-size: 1.25em;
 }
 
 
@@ -181,6 +186,13 @@ li a.selected {
 
 a.cafe-imaginare {
   color: #5b3615;
+}
+
+/* Page: Events */
+
+.date {
+  color: #5b3615;
+  border-bottom: 1px solid #5b3615;
 }
 
 /* Footer Colors */
