@@ -165,6 +165,41 @@ PAGE: MENU
 
 
 /***********************************
+PAGE: CONTACT
+***********************************/
+
+.shop-hours {
+  padding: 0;
+  font-style: italic;
+  font-size: 1.15em;
+  line-height: 1.7;
+}
+
+.shop-hours li {
+  margin-left: 15px;
+}
+
+.contact-info {
+  font-size: 1em;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 0.7em;
+  padding: 10px 15px;
+}
+
+.map {
+  max-width: 100%;
+  max-height: 250px;
+}
+
+.col .address {
+  font-size: 0.85em;
+}
+
+
+/***********************************
 SITE FOOTER
 ***********************************/
 
