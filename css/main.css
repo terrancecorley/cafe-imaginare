@@ -42,7 +42,7 @@ li {
 }
 
 .col img {
-  border-radius: 7px;
+  border-radius: 4px;
 }
 
 .col {
@@ -142,7 +142,7 @@ PAGE: MENU
 }
 
 .menu-list li {
-  border-radius: 7px;
+  border-radius: 4px;
   max-width: 45%;
   margin: 2.5%;
   float: left;
