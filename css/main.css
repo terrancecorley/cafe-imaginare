@@ -382,6 +382,26 @@ MEDIA QUERIES
 
 
   /***********************************
+  PAGE: CONTACT
+  ***********************************/
+
+  .store-hours-col {
+    width: 60%;
+  }
+
+  .contact-info-col {
+    width: 40%;
+  }
+
+  .map-col {
+    clear: both;
+    max-width: 100%;
+    margin-top: 100px;
+  }
+
+
+
+  /***********************************
   SITE FOOTER
   ***********************************/
 
