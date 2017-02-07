@@ -230,6 +230,15 @@ MEDIA QUERIES
 @media (min-width: 480px) {
 
   /***********************************
+  GENERAL
+  ***********************************/
+
+  .container {
+    padding: 0 1.5em 0;
+  }
+
+
+  /***********************************
   SITE HEADER
   ***********************************/
 
@@ -244,6 +253,10 @@ MEDIA QUERIES
   .coffee-cup {
     width: 28px;
     height: 28px;
+  }
+
+  .main-nav {
+    padding-bottom: 12px;
   }
 
   .main-nav li {
@@ -266,6 +279,10 @@ MEDIA QUERIES
     padding: 0 2em 0;
   }
 
+  h2 {
+    font-size: 1.7em;
+  }
+
 
 
   /***********************************
@@ -278,16 +295,16 @@ MEDIA QUERIES
 
   .main-nav {
     margin-top: 50px;
-    padding-bottom: 12px;
   }
 
   .logo {
-    font-size: 2.5em;
+    font-size: 2.7em;
+    padding-top: 0.875em;
   }
 
   .coffee-cup {
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
   }
 
   .main-nav li {
@@ -310,6 +327,39 @@ MEDIA QUERIES
 
   .tertiary {
     clear: left;
+  }
+
+
+
+  /***********************************
+  PAGE: ABOUT
+  ***********************************/
+
+  .bio-col {
+    clear: both;
+    max-width: 100%;
+  }
+
+  .bio-heading {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  .bio-fl {
+    float: left;
+    max-width: 42%;
+    margin: 2.5%;
+  }
+
+  .bio-fr {
+    float: right;
+    max-width: 48%;
+    margin: 11% 2.5% 2.5%;
+  }
+
+  .bio-fr p {
+    line-height: 1.6;
+    margin: 0;
   }
 
 
