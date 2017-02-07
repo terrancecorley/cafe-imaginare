@@ -138,7 +138,7 @@ PAGE: MENU
 .menu-list {
   margin: 0;
   padding: 0;
-  font-size: 0.7em;
+  font-size: 0.75em;
 }
 
 .menu-list li {
@@ -160,6 +160,7 @@ PAGE: MENU
 .menu-list p {
   margin: 0;
   padding: 5%;
+  font-style: italic;
 }
 
 
@@ -409,6 +410,107 @@ MEDIA QUERIES
     margin-top: 300px;
     padding-left: 2.5em;
     padding-right: 2.5em;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  /***********************************
+  GENERAL
+  ***********************************/
+
+  .col {
+    font-size: 1.3em;
+  }
+
+  .container {
+    padding: 0 2.65em 0;
+  }
+
+
+  /***********************************
+  SITE HEADER
+  ***********************************/
+
+  .main-header {
+    font-size: 1.7rem;
+    margin-bottom: 5em;
+    padding-bottom: 0;
+    letter-spacing: 5px;
+  }
+
+  .logo {
+    margin-bottom: 1.5em;
+    padding-top: 1em;
+  }
+
+  .coffee-cup {
+    width: 46px;
+    height: 46px;
+  }
+
+  .main-nav {
+    padding-bottom: 0;
+  }
+
+  .main-nav li {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+  }
+
+  .main-nav .b-link {
+    border-bottom: none;
+  }
+
+
+
+  /***********************************
+  PAGE: MENU
+  ***********************************/
+
+  .menu-heading {
+    /*border-bottom: none;*/
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 2px;
+  }
+
+  .menu-list p {
+    font-size: 1.35em;
+  }
+
+  /***********************************
+  PAGE: CONTACT
+  ***********************************/
+
+  .map {
+    min-height: 400px;
+  }
+
+
+
+  /***********************************
+  SITE FOOTER
+  ***********************************/
+
+  .main-footer {
+    padding-top: 140px;
+  }
+
+  .main-footer p {
+    padding-top: 2.1em;
+    padding-left: 2.65em;
+    padding-right: 2.65em;
+    padding-bottom: 1em;
+    font-size: 0.9em;
+  }
+
+  .social-icon {
+    width: 34px;
+    height: 34px;
+    margin-right: 2.5em;
+    margin-left: 2.5em;
   }
 
 }
