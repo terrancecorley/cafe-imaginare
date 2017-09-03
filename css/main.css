@@ -420,6 +420,10 @@ MEDIA QUERIES
   GENERAL
   ***********************************/
 
+  .menu-container .col {
+    margin: 0 10%;
+  }
+
   .col {
     font-size: 1.3em;
   }
@@ -511,6 +515,18 @@ MEDIA QUERIES
     height: 34px;
     margin-right: 2.5em;
     margin-left: 2.5em;
+  }
+
+}
+
+@media (min-width: 85.9375em) {
+
+  /***********************************
+  PAGE: MENU
+  ***********************************/
+
+  .menu-container .col {
+    margin: 0 12%;
   }
 
 }
