@@ -11,16 +11,16 @@ Café Imaginare is like the word imaginare, fictional. This is a mock static web
 ### Site Header
 ![cafe-imaginare site header screenshot](screenshots/site-header-img.png)
 
-### Site Image
+### About Page
 ![cafe-imaginare about page Image](screenshots/about-img.png)  
 
-### Site Image
+### Events Page
 ![cafe-imaginare event page Image](screenshots/events-img.png)  
 
-### Site Image
+### Food Gallery
 ![cafe-imaginare food gallery Image](screenshots/food-gallery.png)
 
-### Site Image
+### Contact Page
 ![cafe-imaginare contact page Image](screenshots/contact-pg-img.png)
 
 ## Tech Stack  
